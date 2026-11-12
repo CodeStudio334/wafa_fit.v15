@@ -1,0 +1,7 @@
+WAFA FIT R10
+- Removed the competing R8 and R9 navigation CSS override blocks.
+- One flex column owns the header/content/navigation layout.
+- The navigation is the last flex child and uses safe-area padding once.
+- Added viewport measurement to compensate for iOS standalone viewport differences.
+- Retained original app data logic, installation gate, and existing icon assets.
+- Not verified on physical iOS hardware.
